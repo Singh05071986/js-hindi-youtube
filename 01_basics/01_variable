@@ -1,1 +1,10 @@
+const accountId = 144553
+let accountEmail = "ranu777@gmauil.com"
+var accountPassward = "12345"
+accountCity = "Meerut"
+
+//accountId = 2//not used
+
+console.log(accountId);
+console.table([accountEmail,accountId,accountPassward,accountCity])
 
