@@ -5,3 +5,14 @@
 console.log(3+3)
 
 console.log("Pushpender Singh")
+let name = "Pushpender"
+
+let age = 38
+
+let isloggedin = false
+let state = undefined
+
+console.log(typeof "Pushpender")
+console.log(typeof 38)
+console.log(typeof false)
+console.log(typeof undefined)
