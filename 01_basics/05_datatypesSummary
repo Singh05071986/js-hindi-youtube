@@ -1,0 +1,20 @@
+const score = 100
+const scoreValue = 100.3
+//console.log(score);
+//console.log(typeof scoreValue);
+const isloggedIn = false 
+const outsideTemp = null
+let userEmail;
+const id = Symbol('123')
+const anotherId = Symbol('123')
+const bigNumber = 23125678412389123791239n
+const heros = ["shaktiman", "aryaman","juniorji"]
+let myObject = { Name: 'Pushp',
+    age: 38
+}
+const myFunction = function(){console.log("hello")}
+console.log(typeof bigNumber);
+console.log(id == anotherId);
+console.log(myObject);
+console.log(myFunction);
+console.log(heros);
