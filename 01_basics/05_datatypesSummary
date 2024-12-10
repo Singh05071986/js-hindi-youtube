@@ -13,8 +13,23 @@ let myObject = { Name: 'Pushp',
     age: 38
 }
 const myFunction = function(){console.log("hello")}
-console.log(typeof bigNumber);
-console.log(id == anotherId);
-console.log(myObject);
-console.log(myFunction);
-console.log(heros);
+//console.log(typeof bigNumber);
+//console.log(id == anotherId);
+//console.log(myObject);
+//console.log(myFunction);
+//console.log(heros);
+//stack(primitive), Heap(Non-primitive)
+let myYoutubeName = "Pushpender"
+let anothername = myYoutubeName
+anothername = "Krishna"
+console.log(anothername);
+console.log(myYoutubeName);
+let userOne = {
+    email: "xyz@gmail.com",
+    upi: "user@ybl",
+}
+let userTwo = userOne
+userTwo.email = "abc@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
