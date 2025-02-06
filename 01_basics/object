@@ -1,1 +1,77 @@
+//singleton
+//Object literal
+// const mySym = Symbol("key1")
+// const JSuser = {
+//     name: "Pushpender",
+//     "fullName": "Pushpender Singh",
+//     age: "38",
+//     location: "Meerut",
+//     [mySym]: "myKey1",
+//     Email:"ranu777@gmail.com",
+//     isLoggedIn: "false",
+//     LastLogInDays: ["Monday","Saturday"]
+// }
+// console.log(JSuser.Email);
 
+// console.log(JSuser["fullName"]);
+// console.log(typeof JSuser[mySym]);
+// JSuser.Email = "er.pushpender5786@gmail.com"
+// console.log(JSuser['Email']);
+//Object.freeze(JSuser)
+// JSuser.Email = "er.pushpender3627823768892348@gmail.com"
+// console.log(JSuser);
+// JSuser.greeting = function()
+// {
+//     console.log("hello JS user")
+// }
+// JSuser.greetingtwo = function()
+// {
+//     console.log(`hello JS user, ${this.name}`)
+// }
+// console.log(JSuser.greeting);
+// console.log(JSuser.greeting());
+// console.log(JSuser.greetingtwo());
+
+//const tinderUser = new Object()
+const tinderUser = {}
+tinderUser.id = "123abs"
+tinderUser.name = "sam"
+tinderUser.isloggedin = false
+// console.log(tinderUser);
+const regularUser = {
+    email:"some@gmail.com",
+    fullname: {
+        userfullname:{ Firstname: "Pushpender",
+            Lastname:"Singh"
+        }
+
+    }
+}
+//console.log(regularUser.fullname.userfullname.Firstname);
+const Obj1 = {1:"a",2:"b"}
+const Obj2 = {3:"a",4:"b"}
+// const obj3 = {Obj1,Obj2}
+// const obj3 = Object.assign(Obj1,Obj2)
+//const obj3 = Object.assign({},Obj1,Obj2)
+const obj3 = {...Obj1,...Obj2}
+//console.log(obj3);
+const users = [
+    {
+      id: 1,
+      email: "p@gmail.com"
+    },
+        {
+            id: 1,
+            email: "p@gmail.com"
+          },    
+    {
+        id: 1,
+        email: "p@gmail.com"
+      }
+]
+users[1].email
+console.log(tinderUser);
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+console.log(tinderUser.hasOwnProperty('islogged'));
